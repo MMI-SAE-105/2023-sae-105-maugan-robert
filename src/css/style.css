@@ -1,3 +1,2 @@
-img {
-    width: 320px;
-}
+@import "components/style.css";
+@import "layout/header.css";
