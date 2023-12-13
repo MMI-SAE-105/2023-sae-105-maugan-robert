@@ -2,7 +2,7 @@
 * {
      box-sizing: border-box;
     }
-    img {
+    .img__caroussel {
         width: max-content;
         height: 220px;
     }
