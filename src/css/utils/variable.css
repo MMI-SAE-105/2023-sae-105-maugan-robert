@@ -4,7 +4,7 @@
     --darkgrey:#595959;
     --grey: #A6A6A6;
     --lightgrey: #bfbfbf;
-    --white: #fbfbfb;
+    color: var(--white, #FBFBFB);
 
-
+    --header-title: 'Reader Searex', sans-serif;
 }
