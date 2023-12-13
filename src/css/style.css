@@ -1,2 +1,4 @@
-@import "components/style.css";
+@import "components/caroussel.css";
 @import "layout/header.css";
+@import "base/main.css";
+@import "base/media.css";

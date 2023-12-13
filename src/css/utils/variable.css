@@ -1,10 +1,10 @@
 :root {
 
-    --black:#222222;
+    --black:rgb(34,34,34);
     --darkgrey:#595959;
     --grey: #A6A6A6;
     --lightgrey: #bfbfbf;
     --white: #fbfbfb;
 
-    
+
 }
