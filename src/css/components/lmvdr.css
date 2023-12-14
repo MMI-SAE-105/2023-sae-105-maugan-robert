@@ -59,21 +59,24 @@
 }
 
 .frise__building {
-    background-color: var(--gris);
+    background-color: var(--gris-blanc);
     background-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: var(--space2x);
     margin-top: var(--space2x);
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
     margin-left: 60px;
     margin-right: 60px;
-}
+    height: 80px;
+    border: none;
+}   
 
 .frise__img {
-    width: 120px;
+    width: 120px;      
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 figcaption {
