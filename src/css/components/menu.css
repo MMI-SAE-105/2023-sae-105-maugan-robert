@@ -41,3 +41,13 @@ overflow: hidden;
   text-align: center
 
 }
+
+.back__menu {
+  position:relative;
+  z-index: 10;
+  background: transparent; 
+  width: 20px;
+  border: none;
+}
+
+

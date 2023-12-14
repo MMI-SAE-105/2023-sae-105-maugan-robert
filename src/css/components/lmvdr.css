@@ -62,3 +62,13 @@
     background-color: var(--gris);
     display: flex;
 }
+
+.frise__img {
+    width: 120px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.date__frise {
+    display: flex;
+}

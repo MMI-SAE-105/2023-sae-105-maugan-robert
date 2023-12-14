@@ -21,7 +21,10 @@
           </a>
           <h1 class="header__title header__title--home">LudwigExpo</h1> 
             
-          <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn"><img src="public/icon/menu.png" alt=""></button> 
+          <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+          <img class="back__menu" x-show="menuIsOpen" src="public/icon/croix.png" alt="">
+          <img class="menu__burger" x-show="!menuIsOpen" src="public/icon/menu.png" alt="">
+        </button> 
           <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.300ms class="menu">
             <ul menu__ul>
               <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
