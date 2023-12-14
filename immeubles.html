@@ -15,21 +15,26 @@
         <a class="header__logo-link" href="/">
             <img
               class="header__logo"
-              src="public/icon/logo.png"
+              src="public/icon/logo-removebg-preview.png"
               alt="Logo LudwigExpo"
             />
           </a>
           <h1 class="header__title header__title--home">LudwigExpo</h1> 
-          <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn"><img src="public/icon/menu.png" alt=""></button> 
+          <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+            <img class="back__menu" x-show="menuIsOpen" src="public/icon/croix.png" alt="">
+            <img class="menu__burger" x-show="!menuIsOpen" src="public/icon/menu.png" alt="">
+          </button>  
           <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.300ms class="menu">
-            <ul>
-              <li><a class="menu__item" href="index.html">Acceuil</a></li>
-              <li><a class="menu__item" href="lmvdr.html">Ludwig Mies van der Rohe</a></li>
-              <li><a class="menu__item" href="billetterie.html">Billetterie</a></li>
-              <li><a class="menu__item" href="contact.html">Contact</a></li>
+            <ul menu__ul>
+              <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+              <li class="menu__item"><a class="menu__link" href="lmvdr.html">Ludwig Mies van der Rohe</a></li>
+              <li class="menu__item"><a class="menu__link" href="billetterie.html">Billetterie</a></li>
+              <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
             </ul>
           </nav> 
+        </header>
         <main>
+          <img src="public/img/image 5.webp" alt="">
             <h1 class="page__title">Immeubles 860 et 880 Lake Shore Drive</h1>
             <h2 class="title__partie">Informations</h2>
             <p class="descr__building">Les immeubles 860 et 880 Lake Shore Drive sont deux tours d'appartements en acier et en verre situées sur la portion nord de Lake Shore Drive, autoroute longeant la rive du lac Michigan à Chicago, dans l'État de l'Illinois. Ils ont été inscrits sur la liste des Chicago Landmarks le 10 juin 1996 par la ville de Chicago.
