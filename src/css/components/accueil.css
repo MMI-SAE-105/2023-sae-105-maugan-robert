@@ -10,7 +10,7 @@
 
 .intro__text {
     font-size: var(--sous-titre);
-    font-family: var(--readex);
+    font-family: var(--readex); 
     color: var(--black);
     padding-left: var(--space2x);
     padding-right: var(--space2x);
@@ -81,7 +81,7 @@
     filter: invert(100%);
     -webkit-filter: invert(100%);
     transform: rotate(180deg);
-}
+}   
 
 .lien_bottomhome {
     color: inherit;

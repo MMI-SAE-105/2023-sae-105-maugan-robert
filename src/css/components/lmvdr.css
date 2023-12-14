@@ -1,0 +1,64 @@
+.page__title {
+    font-size: var(--title);
+    font-family: var(--readex);
+    font-weight: 500;
+    color: var(--gris-noir);
+    text-align: center;
+    margin-top: var(--space1x);
+    margin-bottom: var(--space1x);
+}
+
+.intro__text {
+    font-size: var(--sous-titre);
+    font-family: var(--readex); 
+    color: var(--black);
+    padding-left: var(--space2x);
+    padding-right: var(--space2x);
+}
+
+.body {
+    font-family: var(--niramit);
+    font-size: var(--body);
+    color: var(--black);
+    margin-left: var(--space2x);
+    margin-right: var(--space2x);
+}
+
+.title__partie {
+    font-size: var(--titre-partie-accueil);
+    font-family: var(--readex);
+    color: var(--black);
+    margin-left: var(--space2x);
+    padding-right: var(--space2x);
+}
+
+.btn__esp {
+    background-color:var(--black);
+    color: var(--white); 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    text-align: center;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23%;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.text__btnesp {
+    font-size: var(--body);
+    font-family: var(--readex); 
+    color: var(--white);
+    text-decoration: none;
+}
+
+.caroussel__bloc {
+    border-bottom: 2px var(--black) solid;
+}
+
+.frise__building {
+    background-color: var(--gris);
+    display: flex;
+}

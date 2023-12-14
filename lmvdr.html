@@ -6,6 +6,9 @@
     <title>Ludwig Mies van der Rohe</title>
     <link rel="stylesheet" href="src/css/style.css" />
     <script src="//unpkg.com/alpinejs" defer></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Niramit&family=Readex+Pro:wght@400;500&display=swap');
+        </style>
 </head>
 <body> 
     <header class="header header--home">
@@ -38,12 +41,13 @@
           <h2 class="title__partie informations">Informations</h2>
           <p class="body">Ludwig Mies van der Rohe (1886-1969) était un architecte allemand-américain et l'une des figures les plus influentes du mouvement moderne en architecture. Né à Aix-la-Chapelle, en Allemagne, Mies van der Rohe a débuté sa carrière dans le domaine de l'architecture au début du XXe siècle.
             Il est surtout connu pour son approche minimaliste et son principe de "moins c'est plus". Mies van der Rohe a joué un rôle clé dans le développement du style international, caractérisé par l'utilisation de lignes épurées, de matériaux industriels tels que l'acier et le verre, et une conception axée sur la fonctionnalité.</p>
-            <h2 class="titlte__partie oeuvres">Ses oeuvres</h2>
+            <h2 class="title__partie oeuvres">Ses oeuvres</h2>
             
             <div class="carrousel" x-data="{hrefCourant:'#ecran-1',}">
                 <button @click="parent = $refs.parent,parent.scrollLeft -= parent.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><</button><button @click="parent = $refs.parent,parent.scrollLeft += parent.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
                 <div class="carrousel_parent-ecrans" x-ref="parent"  @scroll.debounce.250ms.passive="hrefCourant = '#'+[...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
                     <div id="ecran-1" class="carrousel_ecran">
+                       
                         <figure>
                             <img src="public/img/image 4.webp" alt="image ecran 1">
                             <figcaption>Japon</figcaption>
@@ -106,49 +110,78 @@
                     <li><a href="#ecran-6" :class="{actif:hrefCourant==='#ecran-6'}" class="caroussel_lien"></a></li>
                     <li><a href="#ecran-7" :class="{actif:hrefCourant==='#ecran-7'}" class="caroussel_lien"></a></li>
                     <li><a href="#ecran-8" :class="{actif:hrefCourant==='#ecran-8'}" class="caroussel_lien"></a></li>
-                </ul>
-                <button>EN SAVOIR PLUS</button>
+                </ul>  
+
+                <section class="caroussel__bloc">
+                <button class="btn__esp"><a class="text__btnesp" href="">EN SAVOIR PLUS</a></button>
+            </section>
             </div>
-            <section>
+        
+            <section class="frise_chronologique">
                 <h2 class="title__partie frise">Frise chronologique</h2>
+            
+        <section class="frise__building">
+                <div>
+                <p class="date__frise">1951</p>
+                <img class="frise__img" src="public/img/image 11.webp" alt="">
+            </div>
+        </section>
+            
+        <section class="frise__building">
             <div>
                 <p class="date__frise">1951</p>
-                <img src="public/img/image 11.webp" alt="">
-            </div><div>
-                <p class="date__frise">1951</p>
-                <img src="public/img/image 5.webp" alt="">
+                <img class="frise__img" src="public/img/image 5.webp" alt="">
             </div>
+        </section>
+
+            <section class="frise__building">
             <div>
                 <p class="date__frise">1956</p>
-                <img src="public/img/image 6.webp" alt="">
+                <img class="frise__img" src="public/img/image 6.webp" alt="">
             </div>
+        </section>
+
+            <section class="frise__building">
             <div>
                 <p class="date__frise">1958</p>
-                <img src="public/img/image 4.webp" alt="">
+                <img class="frise__img" src="public/img/image 4.webp" alt="">
             </div>
+        </section>
+
+            <section class="frise__building">
             <div>
                 <p class="date__frise">1958</p>
-                <img src="public/img/image 7.webp" alt="">
+                <img class="frise__img" src="public/img/image 7.webp" alt="">
             </div>
+        </section>
+
+            <section class="frise__building">
             <div>
                 <p class="date__frise">1961</p>
-                <img src="public/img/image 8.webp" alt="">
+                <img class="frise__img" src="public/img/image 8.webp" alt="">
             </div>
+        </section>
+
+            <section class="frise__building">
             <div>
                 <p class="date__frise">1968</p>
-                <img src="public/img/image 9.webp" alt="">
+                <img class="frise__img" src="public/img/image 9.webp" alt="">
             </div>
+        </section>
+
+            <section class="frise__building">
             <div>
                 <p class="date__frise">1972</p>
-                <img src="public/img/image 10.webp" alt="">
+                <img class="frise__img" src="public/img/image 10.webp" alt="">
             </div>
-            </section>
+        </section>
+        </section>
         </main>  
         <footer>
             <a class="footer__billetterie" href="billetterie.html">Billetterie</a>
             <a class="footer__contact" href="contact.html">Contact</a>
             <p class="footer__citation">Créer la forme à partir de la nature de la tâche avec les moyens de notre époque. C’est ça notre travail.</p>
-            <img class="footer__logo" src="public/icon/logo.png" alt="logo footer">
+            <img class="footer__logo" src="public/icon/logo-removebg-preview.png" alt="logo footer">
             <p class="footer__copy">&copy; 2023 LudwigExpo</p>
         </footer>
 </body>
