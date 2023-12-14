@@ -17,7 +17,7 @@
 --header-title : 24px;
 
 /* Font styles */
---readex: 'Readex Pro';
---niramit: 'Niramit';
+--niramit: 'Niramit', sans-serif;
+--readex: 'Readex Pro', sans-serif;
 }
 

@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ludwig Mies van der Rohe</title>
     <link rel="stylesheet" href="src/css/style.css" />
-    <link rel="stylesheet" href="src/css/caroussel.css" />
     <script src="//unpkg.com/alpinejs" defer></script>
 </head>
 <body> 
@@ -13,24 +12,23 @@
         <a class="header__logo-link" href="/">
             <img
               class="header__logo"
-              src="public/icon/logo.png"
-              alt="Logo LudwigExpo"
-            />
+              src="public/icon/logo-removebg-preview.png"
+              alt="Logo LudwigExpo"/>
           </a>
           <h1 class="header__title header__title--home">LudwigExpo</h1> 
           <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn"><img src="public/icon/menu.png" alt=""></button> 
           <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.300ms class="menu">
-            <ul>
-              <li><a class="menu__item" href="index.html">Accueil</a></li>
-              <li><a class="menu__item" href="lmvdr.html">Ludwig Mies van der Rohe</a></li>
-              <li><a class="menu__item" href="billetterie.html">Billetterie</a></li>
-              <li><a class="menu__item" href="contact.html">Contact</a></li>
+            <ul class="menu__ul">
+              <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+              <li class="menu__item"><a class="menu__link" href="lmvdr.html">Ludwig Mies van der Rohe</a></li>
+              <li class="menu__item"><a class="menu__link" href="billetterie.html">Billetterie</a></li>
+              <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
             </ul>
           </nav>
-          <img src="public/img/image 1.webp" alt="">
     </header>     
     <main>
         <section class="section">
+            <img src="public/img/image 1.webp" alt="">
             <h1 class="page__title">Ludwig Mies van der Rohe</h1>
             <p class="intro__text">
                 Apprenez en plus sur l’architecte et son travail</a>

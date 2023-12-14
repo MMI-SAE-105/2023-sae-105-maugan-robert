@@ -4,3 +4,6 @@
 @import "base/media.css";
 @import "components/menu.css";
 @import "utils/variable.css";
+@import "components/menu.css";
+@import "components/accueil.css";
+@import "layout/footer.css";
