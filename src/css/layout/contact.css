@@ -1,0 +1,58 @@
+.contact {
+    background-color: var(--white);
+    border: none; 
+}
+
+.label__name {
+    display: block;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid var(--gris-noir);
+    margin-top: var(--space1x);
+}
+ label {
+    font-size: var(--body);
+    font-family: var(--niramit);
+    color: var(--gris-noir);
+    margin-left: var(--space2x);
+    margin-right: var(--space2x);
+ }
+
+ .contact_btn {
+    background-color: var(--black);
+    color: var(--white); 
+    font-family: var(--readex);
+    border-radius: 15px; 
+    padding: 10px 20px; 
+    text-align: center;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-bottom: 25px;
+ }
+
+ input {
+    border: none; 
+}
+
+textarea {
+    border: none; 
+}
+
+.label__message {
+    display: block;
+    padding-bottom: 50px;
+    border-bottom: 2px solid black; 
+}
+
+.page__titlecontact {
+    font-size: var(--title);
+    font-family: var(--readex);
+    font-weight: 500;
+    color: var(--gris-noir);
+    text-align: center;
+    margin-top: var(--space3x);
+    margin-bottom: var(--space1x);
+}

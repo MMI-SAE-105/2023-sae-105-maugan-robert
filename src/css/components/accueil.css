@@ -16,6 +16,7 @@
     color: var(--black);
     padding-left: var(--space2x);
     padding-right: var(--space2x);
+    font-weight: 500;
 }
 
 .lien__archi {
@@ -23,6 +24,7 @@
     font-family: var(--readex);
     color: var(--gris);
     text-align: center;
+    font-weight: 400;
 }
 
 .title__partie {
