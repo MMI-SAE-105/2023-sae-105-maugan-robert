@@ -38,7 +38,9 @@ overflow: hidden;
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  text-align: center
+  justify-content: center;
+  text-align: center;
+  margin-right: 37px;
 
 }
 
