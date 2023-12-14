@@ -19,10 +19,12 @@
           <h1 class="header__title header__title--home">LudwigExpo</h1> 
             
           <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn"><img src="public/icon/menu.png" alt=""></button> 
-          <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
+          <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.300ms class="menu">
             <ul>
-              <a href="index.html">ACCUEIL</a>
-              <a href="lmvdr.html">CLudwig Mies van der Rohe</a>
+              <li><a class="menu__item" href="index.html">Acceuil</a></li>
+              <li><a class="menu__item" href="lmvdr.html">Ludwig Mies van der Rohe</a></li>
+              <li><a class="menu__item" href="billetterie.html">Billetterie</a></li>
+              <li><a class="menu__item" href="contact.html">Contact</a></li>
             </ul>
           </nav>
     </header>

@@ -4,8 +4,10 @@
   left:0;
   width: 100vw;
   height: 100vh;
-  background:gray;
-  display:grid;
+  background: #595959;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   place-content:center;
 }
 .header__menuBtn{
@@ -20,4 +22,21 @@
 .noscroll,
 .noscroll body {
 overflow: hidden;
+}
+
+.menu__item {
+  text-decoration: none;
+  color: inherit;
+  color: var(--white);
+  font-size: var(--titre-partie-accueil);
+  font-family: var(--readex);
+}
+
+ul li {
+  list-style: none;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center
+
 }
