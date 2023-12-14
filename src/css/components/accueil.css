@@ -1,2 +1,38 @@
+.page__title {
+    font-size: var(--title);
+    font-family: var(--readex);
+    color: var(--gris-noir);
+    text-align: center;
+    margin-top: var(--space1x);
+    margin-bottom: var(--space1x);
+}
 
+.intro__text {
+    font-size: var(--sous-titre);
+    font-family: var(--readex);
+    color: var(--black);
+    padding-left: var(--space2x);
+    padding-right: var(--space2x);
+}
 
+.lien__archi {
+    font-size: var(--sous-titre);
+    font-family: var(--readex);
+    color: var(--gris);
+    text-align: center;
+}
+
+.title__partie {
+    font-size: var(--titre-partie-accueil);
+    font-family: var(--readex);
+    color: var(--black);
+    margin-left: var(--space2x);
+    padding-right: var(--space2x);
+}
+
+.body {
+    font-family: var(--niramit);
+    color: var(--black);
+    margin-left: var(--space2x);
+    
+}

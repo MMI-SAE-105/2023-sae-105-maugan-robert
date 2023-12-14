@@ -4,19 +4,27 @@ footer {
     flex-direction: column;
 }
 
+.footer__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer__logo {
     filter: invert(100%);
     -webkit-filter: invert(100%);
-    width: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;    
+    width: 50px;
+    margin-left: 135px; 
+    margin-bottom: 1px;
 }
 
 .footer__citation {
-    font-size: var(--footer);
+    font-size: var(--citation);
+    font-style: var(--text-md);
     color: var(--white);
     font-family: var(--readex);
+    padding-left: 10px;
+    margin-right: 35px;
 }
 
 .footer__copy {
@@ -27,11 +35,28 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0;
 }
 
 .footer__link {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.footer__billetterie {
+    color: inherit;
+    color: var(--white);
+    font-size: var(--footer);
+    font-family: var(--readex);
+    margin-bottom: 5px;
+}
+
+.footer__contact {
+    color: inherit;
+    color: var(--white);
+    font-size: var(--footer);
+    font-family: var(--readex);
 }
