@@ -6,6 +6,8 @@
     text-align: center;
     margin-top: var(--space1x);
     margin-bottom: var(--space1x);
+    margin-left:var(--space1x);
+    margin-right: var(--space1x);
 }
 
 .intro__text {

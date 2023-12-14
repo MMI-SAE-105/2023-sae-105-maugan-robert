@@ -1,0 +1,17 @@
+.descr__building {
+    font-family: var(--niramit);
+    font-size: var(--body);
+    color: var(--black);
+    margin-left: var(--space2x);
+    margin-right: var(--space2x);
+    margin-bottom: var(--space3x);
+}
+
+.img__bonus {
+    margin-bottom: 0; /* Remove space between .img__bonus elements */
+}
+
+.footer__oeuvre {
+    margin-top: 0; 
+    padding-top: 0; 
+}

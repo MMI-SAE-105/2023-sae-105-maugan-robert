@@ -1,54 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" x-data="{menuIsOpen:false}":class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bibliothèque</title>
-    <script src="//unpkg.com/alpinejs" defer></script>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Niramit&family=Readex+Pro:wght@400;500&display=swap');
+      </style>
 </head>
 <body>
     <header class="header header--home">
         <a class="header__logo-link" href="/">
             <img
               class="header__logo"
-              src="public/icon/logo.png"
+              src="public/icon/logo-removebg-preview.png"
               alt="Logo LudwigExpo"
             />
           </a>
           <h1 class="header__title header__title--home">LudwigExpo</h1> 
-            <button class="header__menu-btn menu-btn">
-                <span class="menu-btn__bar"></span>
-              </button>
-        
-              <nav class="header__menu menu">
-                <ul class="menu__list">
-                  <li class="menu__item">
-                    <a class="menu__link" href="lmvdr.html">Ludwig Mies van der Rohe</a>
-                  </li>
-                  <li class="menu__item">
-                    <a class="menu__link" href="billetterie.html">Billetterie</a>
-                  </li>
-                  <li class="menu__item">
-                    <a class="menu__link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-                <img src="public/img/image 10.webp" alt="">
-          </nav>
+          <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn">
+            <img class="back__menu" x-show="menuIsOpen" src="public/icon/croix.png" alt="">
+            <img class="menu__burger" x-show="!menuIsOpen" src="public/icon/menu.png" alt="">
+          </button> 
+            <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.300ms class="menu">
+              <ul menu__ul>
+                <li class="menu__item"><a class="menu__link" href="index.html">Accueil</a></li>
+                <li class="menu__item"><a class="menu__link" href="lmvdr.html">Ludwig Mies van der Rohe</a></li>
+                <li class="menu__item"><a class="menu__link" href="billetterie.html">Billetterie</a></li>
+                <li class="menu__item"><a class="menu__link" href="contact.html">Contact</a></li>
+              </ul>
+            </nav>
         </header> 
         <main>
+          <img src="public/img/image 10.webp" alt="">
             <h1 class="page__title">Bibliothèque Martin Luther King Jr Memorial</h1>
             <h2 class="title__partie">Informations</h2>
             <p class="descr__building">La Bibliothèque Martin Luther King Jr. Memorial (Martin Luther King Jr. Memorial Library) est un établissement du District of Columbia Public Library. Ludwig Mies van der Rohe a conçu les 400 000 pieds carrés (37,000 m2) de l'édifice en acier, brique et verre qui constitue un rare exemple d'architecture moderne à Washington.
 
                 Nommée en l'honneur du chef de file américain des droits civiques, le hall du bâtiment comprend une grande fresque de Martin Luther King, Jr. par l'artiste Don Miller.</p>
-        <img src="public/img/image 35.webp" alt="">
-        <img src="public/img/image 34.webp" alt="">
+        <img class="img__bonus" src="public/img/image 35.webp" alt="">
+        <img class="img__bonus" src="public/img/image 34.webp" alt="">
         </main>
-        <footer>
+        <footer class="footer__oeuvre">
+          <div class="footer__link">
             <a class="footer__billetterie" href="billetterie.html">Billetterie</a>
             <a class="footer__contact" href="contact.html">Contact</a>
+          </div>
             <p class="footer__citation">Créer la forme à partir de la nature de la tâche avec les moyens de notre époque. C’est ça notre travail.</p>
-            <img class="footer__logo" src="public/icon/logo.png" alt="logo footer">
+            <div class="footer__centre">
+            <img class="footer__logo" src="public/icon/logo-removebg-preview.png" alt="logo footer">
             <p class="footer__copy">&copy; 2023 LudwigExpo</p>
-        </footer>
+          </div>
+          </footer>
 </body>

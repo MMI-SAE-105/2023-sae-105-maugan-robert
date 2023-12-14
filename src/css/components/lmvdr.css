@@ -69,6 +69,13 @@
     border-bottom-right-radius: 20px;
 }
 
-.date__frise {
-    display: flex;
+figcaption {
+    font-size: var(--sous-titre);
+    font-family: var(--readex); 
+    color: var(--black);
+    padding-left: var(--space2x);
+    padding-right: var(--space2x);
+    text-align: center;
+    padding-top: var(--space1x);
 }
+

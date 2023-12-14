@@ -35,7 +35,7 @@
     transform: translateY(-50%);
     width: 2rem;
     height: 2rem;
-    background: rgba(0,0,0,0.5);
+    background: var(--gris-noir);
     border-radius: 50%;
     border: none;
     display: grid;
@@ -45,6 +45,7 @@
 
     .carrousel_btn-avant {
     left: 0;
+    font-weight: 500;
     }
 
     .carrousel_btn-apres {
@@ -53,8 +54,8 @@
 
     .caroussel_liste-liens a {
         display: block; 
-        width: 15px; 
-        height: 15px; 
+        width: 10px; 
+        height: 10px; 
         background-color: #000; 
         border-radius: 50%; 
         text-indent: -9999px;
@@ -74,8 +75,8 @@
 }
     .caroussel_liste-liens a.actif {
         display: block;
-        width: 15px; 
-        height: 15px; 
+        width: 10px; 
+        height: 10px; 
         background-color: gray;
         border-radius: 50%; 
         text-indent: -9999px; 

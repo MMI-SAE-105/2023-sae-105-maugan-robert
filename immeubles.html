@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" x-data="{menuIsOpen:false}":class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Immeubles</title>
-    <script src="//unpkg.com/alpinejs" defer></script>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <script defer src="https://unpkg.com/alpinejs"></script>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Niramit&family=Readex+Pro:wght@400;500&display=swap');
+      </style>
 </head>
 <body>
     <header class="header header--home">
@@ -31,14 +35,18 @@
             <p class="descr__building">Les immeubles 860 et 880 Lake Shore Drive sont deux tours d'appartements en acier et en verre situées sur la portion nord de Lake Shore Drive, autoroute longeant la rive du lac Michigan à Chicago, dans l'État de l'Illinois. Ils ont été inscrits sur la liste des Chicago Landmarks le 10 juin 1996 par la ville de Chicago.
 
                 Ces tours de 26 étages et 82 m de haut, construites de 1949 à 1951 par l'architecte de renom Ludwig Mies van der Rohe furent surnommées « les immeubles de verre ». À l'origine, le financement connut quelques difficultés et fut refusé par des investisseurs comme Baird & Warner qui trouvèrent le projet trop radical.</p>
-        <img src="public/img/image 18.webp" alt="">
-        <img src="public/img/image 19.webp" alt="">
+        <img class="img__bonus" src="public/img/image 18.webp" alt="">
+        <img class="img__bonus" src="public/img/image 19.webp" alt="">
         </main>
-        <footer>
+        <footer class="footer__oeuvre">
+          <div class="footer__link">
             <a class="footer__billetterie" href="billetterie.html">Billetterie</a>
             <a class="footer__contact" href="contact.html">Contact</a>
+          </div>
             <p class="footer__citation">Créer la forme à partir de la nature de la tâche avec les moyens de notre époque. C’est ça notre travail.</p>
-            <img class="footer__logo" src="public/icon/logo.png" alt="logo footer">
+            <div class="footer__centre">
+            <img class="footer__logo" src="public/icon/logo-removebg-preview.png" alt="logo footer">
             <p class="footer__copy">&copy; 2023 LudwigExpo</p>
-        </footer>
+          </div>
+          </footer>
 </body>
