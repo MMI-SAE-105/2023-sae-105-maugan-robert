@@ -9,6 +9,8 @@
     margin-bottom: 5px;
     border-bottom: 2px solid var(--gris-noir);
     margin-top: var(--space1x);
+    margin-left: var(--space1x);
+    margin-right: var(--space1x);
 }
  label {
     font-size: var(--body);
@@ -55,4 +57,6 @@ textarea {
     text-align: center;
     margin-top: var(--space3x);
     margin-bottom: var(--space1x);
+    margin-left: var(--space1x);
+    margin-right: var(--space1x);
 }
