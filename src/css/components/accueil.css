@@ -1,6 +1,7 @@
 .page__title {
     font-size: var(--title);
     font-family: var(--readex);
+    font-weight: 500;
     color: var(--gris-noir);
     text-align: center;
     margin-top: var(--space1x);
@@ -32,7 +33,64 @@
 
 .body {
     font-family: var(--niramit);
+    font-size: var(--body);
     color: var(--black);
     margin-left: var(--space2x);
-    
+    margin-right: var(--space2x);
 }
+
+.img__fondation {
+    margin-left: var(--space2x);
+    margin-right: var(--space2x);
+    width: 85%;
+}
+
+.text__tarifs{
+    font-family: var(--niramit);
+    font-size: var(--body);
+    color: var(--black);
+    margin-left: var(--space2x);
+    margin-right: var(--space2x);
+}
+
+.gratuit_pour {
+    font-family: var(--niramit);
+    font-size: var(--body);
+    font-weight: bold;
+    color: var(--black);
+    margin-left: var(--space2x);
+    margin-right: var(--space2x);
+}
+
+.btn__billetterie {
+    background-color: var(--black); 
+    color: var(--white); 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    width: 150px;
+    border: none;
+    display: flex; 
+    align-items: center;
+    margin-left: 25%;
+    margin-bottom: 20px;
+}
+
+.logo__btnbilletterie {
+    width: 20%;
+    margin-right: 10px;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    transform: rotate(180deg);
+}
+
+.lien_bottomhome {
+    color: inherit;
+    font-family: var(--niramit);
+    font-size: var(--body);
+    color: var(--gris-noir);
+    margin-left: var(--space2x);
+    margin-right: var(--space2x);
+    margin-bottom: 20px;
+}
+
+

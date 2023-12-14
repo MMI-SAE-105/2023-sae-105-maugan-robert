@@ -2,6 +2,7 @@ footer {
     background-color: var(--gris-noir);
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
 }
 
 .footer__center {
@@ -47,11 +48,12 @@ footer {
 }
 
 .footer__billetterie {
+    margin-top: var(--space1x);
     color: inherit;
     color: var(--white);
     font-size: var(--footer);
     font-family: var(--readex);
-    margin-bottom: 5px;
+    margin-bottom: var(--space1x);
 }
 
 .footer__contact {
@@ -59,4 +61,5 @@ footer {
     color: var(--white);
     font-size: var(--footer);
     font-family: var(--readex);
+    margin-bottom: var(--space1x);
 }
