@@ -16,7 +16,7 @@
     font-size: var(--body);
     font-family: var(--niramit);
     color: var(--gris-noir);
-    margin-left: var(--space2x);
+    margin-left: var(--space1x);
     margin-right: var(--space2x);
  }
 
@@ -46,7 +46,7 @@ textarea {
 .label__message {
     display: block;
     padding-bottom: 50px;
-    border-bottom: 2px solid black; 
+    border-bottom: 2px solid var(--gris-noir); 
 }
 
 .page__titlecontact {
