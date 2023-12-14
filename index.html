@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" x-data="{menuIsOpen:false}":class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
     <link rel="stylesheet" href="src/css/style.css" />
+    <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 <body>
     <header class="header header--home">
@@ -17,22 +18,12 @@
           </a>
           <h1 class="header__title header__title--home">LudwigExpo</h1> 
             
-          <button class="header__menu-btn menu-btn">
-                <span class="menu-btn__bar"></span>
-              </button>
-        
-              <nav class="header__menu menu">
-                <ul class="menu__list">
-                  <li class="menu__item">
-                    <a class="menu__link" href="lmvdr.html">Ludwig Mies van der Rohe</a>
-                  </li>
-                  <li class="menu__item">
-                    <a class="menu__link" href="billetterie.html">Billetterie</a>
-                  </li>
-                  <li class="menu__item">
-                    <a class="menu__link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
+          <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn"><img src="public/icon/menu.png" alt=""></button> 
+          <nav id="mainNav" x-show="menuIsOpen" x-transition.duration.500ms class="menu">
+            <ul>
+              <a href="index.html">ACCUEIL</a>
+              <a href="lmvdr.html">CLudwig Mies van der Rohe</a>
+            </ul>
           </nav>
     </header>
     <main>
