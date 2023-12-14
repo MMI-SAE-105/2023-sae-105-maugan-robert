@@ -46,8 +46,8 @@
             <div class="carrousel" x-data="{hrefCourant:'#ecran-1',}">
                 <button @click="parent = $refs.parent,parent.scrollLeft -= parent.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><</button><button @click="parent = $refs.parent,parent.scrollLeft += parent.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
                 <div class="carrousel_parent-ecrans" x-ref="parent"  @scroll.debounce.250ms.passive="hrefCourant = '#'+[...$refs.parent.children].find(e=>e.getBoundingClientRect().x>=0).id">
-                    <div id="ecran-1" class="carrousel_ecran">
-                       
+                    
+                    <div id="ecran-1" class="carrousel_ecran">      
                         <figure>
                             <img src="public/img/image 4.webp" alt="image ecran 1">
                             <figcaption>Campus de l’Institut de technologie de l'Illinois</figcaption>
@@ -114,69 +114,59 @@
                 </ul>  
 
                 <section class="caroussel__bloc">
-                <button   class="btn__esp">
-                    <a  {actif:hrefCourant==='#ecran-1'} class="text__btnesp" href="campus.html">
-                    EN SAVOIR PLUS</a></a></button>
             </section>
             </div>
         
-            <section class="frise_chronologique">
+        <section class="frise_chronologique">
                 <h2 class="title__partie frise">Frise chronologique</h2>
             
-        <section class="frise__building">
-                <div>
+        <section class="frise__building 1"> <a class="link__oeuvre" href="farnsworth.html">
+
                 <p class="date__frise">1951</p>
                 <img class="frise__img" src="public/img/image 11.webp" alt="">
-            </div>
+            </a>
         </section>
             
-        <section class="frise__building">
-            <div>
+        <section class="frise__building"><a class="link__oeuvre" href="immeubles.html">
                 <p class="date__frise">1951</p>
                 <img class="frise__img" src="public/img/image 5.webp" alt="">
-            </div>
+                </a>
         </section>
 
-            <section class="frise__building">
-            <div>
+            <section class="frise__building"><a class="link__oeuvre" href="crownhall.html">
                 <p class="date__frise">1956</p>
                 <img class="frise__img" src="public/img/image 6.webp" alt="">
-            </div>
+                </a>
         </section>
 
-            <section class="frise__building">
-            <div>
+            <section class="frise__building"><a class="link__oeuvre" href="campus.html">
                 <p class="date__frise">1958</p>
                 <img class="frise__img" src="public/img/image 4.webp" alt="">
-            </div>
+                </a>
         </section>
 
-            <section class="frise__building">
-            <div>
+            <section class="frise__building"><a class="link__oeuvre" href="seagram.html">
                 <p class="date__frise">1958</p>
                 <img class="frise__img" src="public/img/image 7.webp" alt="">
-            </div>
+                </a>
         </section>
 
-            <section class="frise__building">
-            <div>
+            <section class="frise__building"><a class="link__oeuvre" href="bacardi.html">
                 <p class="date__frise">1961</p>
                 <img class="frise__img" src="public/img/image 8.webp" alt="">
-            </div>
+                </a>
         </section>
 
-            <section class="frise__building">
-            <div>
+            <section class="frise__building"><a class="link__oeuvre" href="neue.html">
                 <p class="date__frise">1968</p>
                 <img class="frise__img" src="public/img/image 9.webp" alt="">
-            </div>
+                </a>
         </section>
 
-            <section class="frise__building">
-            <div>
+            <section class="frise__building"><a class="link__oeuvre" href="bibliotheque.html">
                 <p class="date__frise">1972</p>
                 <img class="frise__img" src="public/img/image 10.webp" alt="">
-            </div>
+                </a>
         </section>
         </section>
         </main>  

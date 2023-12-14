@@ -60,13 +60,20 @@
 
 .frise__building {
     background-color: var(--gris);
+    background-size: 10px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--space2x);
+    margin-top: var(--space2x);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .frise__img {
     width: 120px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 figcaption {
@@ -79,3 +86,19 @@ figcaption {
     padding-top: var(--space1x);
 }
 
+.date__frise {
+    font-size: var(--sous-titre);
+    font-family: var(--readex); 
+    color: var(--black);
+    padding-left: var(--space2x);
+    padding-right: var(--space2x);
+    text-align: center;
+    font-weight: 500;
+}
+
+.link__oeuvre {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
