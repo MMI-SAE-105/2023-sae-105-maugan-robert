@@ -39,3 +39,7 @@ h1, h2, h3 {
   align-items: center;
   font-size: 20px; 
 }
+
+.btn__rechercher {
+  font-size: x-large;
+}
