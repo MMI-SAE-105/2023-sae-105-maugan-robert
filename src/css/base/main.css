@@ -43,3 +43,7 @@ h1, h2, h3 {
 .btn__rechercher {
   font-size: x-large;
 }
+
+p a {
+  color: inherit;
+}
