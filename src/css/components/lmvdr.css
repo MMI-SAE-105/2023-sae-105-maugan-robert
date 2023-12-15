@@ -32,27 +32,6 @@
     padding-right: var(--space2x);
 }
 
-.btn__esp {
-    background-color:var(--black);
-    color: var(--white); 
-    border-radius: 20px; 
-    padding: 10px 20px; 
-    text-align: center;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 23%;
-    margin-top: 30px;
-    margin-bottom: 25px;
-}
-
-.text__btnesp {
-    font-size: var(--body);
-    font-family: var(--readex); 
-    color: var(--white);
-    text-decoration: none;
-}
 
 .caroussel__bloc {
     border-bottom: 2px var(--black) solid;
@@ -61,19 +40,20 @@
 .frise__building {
     display: flex;
     background-color: var(--gris-blanc);
-    background-size: 10px;
+    background-size: 20px;
     margin-bottom: var(--space2x);
     margin-top: var(--space2x);
     border-radius: 20px;
-    height: 80px;
+    height: 90px;
     border: none;
 }   
 
 .frise__img {
-    width: 120px;      
+    width: 135px;      
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     margin-left: 6%;
+    margin-top:-0.5%;   
 }
 
 figcaption {
