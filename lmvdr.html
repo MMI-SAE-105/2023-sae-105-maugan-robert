@@ -54,55 +54,51 @@
                     <div id="ecran-1" class="carrousel_ecran">      
                         <figure>
                             <img src="public/img/image 4.webp" alt="image ecran 1">
-                            <figcaption>Campus de l’Institut de technologie de l'Illinois</figcaption>
+                            <figcaption><a href="campus.html">Campus de l’Institut de technologie de l'Illinois</a></figcaption>
                         </figure>
                     </div>
                     <div id="ecran-2" class="carrousel_ecran">
                         <figure>
                             <img class="img__caroussel" src="public/img/image 5.webp" alt="image ecran 2">
-                            <figcaption>Immeubles 860 et 880
-                                Lake Shore Drive</figcaption>
+                            <figcaption><a href="immeubles.html">Immeubles 860 et 880
+                                Lake Shore Drive</a></figcaption>
                         </figure>
                     </div>
                     <div id="ecran-3" class="carrousel_ecran">
                         <figure>
                             <img class="img__caroussel" src="public/img/image 6.webp" alt="image ecran 3">
-                            <figcaption>Crown Hall</figcaption>
-                            <p></p>
+                            <figcaption><a href="crownhall.html">Crown Hall</a></figcaption>
                         </figure>
                     </div>
                     <div id="ecran-4" class="carrousel_ecran">
                         <figure>
                             <img class="img__caroussel" src="public/img/image 7.webp" alt="image ecran 4">
-                            <figcaption>Seagram Building</figcaption>
+                            <figcaption><a href="seagram.html">Seagram Building</a></figcaption>
                         </figure>
                     </div>
                     <div id="ecran-5" class="carrousel_ecran">
                         <figure>
                             <img class="img__caroussel" src="public/img/image 8.webp" alt="image ecran 5">
-                            <figcaption>Bibliothèque Martin Luther King Jr Memorial</figcaption>
-                            <p></p>
+                            <figcaption><a href="bibliotheque.html">Bibliothèque Martin Luther King Jr Memorial</a></figcaption>
                         </figure>
                     </div>
                     <div id="ecran-6" class="carrousel_ecran">
                         <figure>
                             <img class="img__caroussel" src="public/img/image 9.webp" alt="image ecran 6">
-                            <figcaption>Neue Nationalgalerie</figcaption>
-                            <p></p>
+                            <figcaption><a href="neue.html">Neue Nationalgalerie</a></figcaption>
                         </figure>
                     </div>
                     <div id="ecran-7" class="carrousel_ecran">
                         <figure>
                             <img class="img__caroussel" src="public/img/image 10.webp" alt="image ecran 7">
-                            <figcaption>Bacardi Office Building</figcaption>
-                            <p></p>
+                            <figcaption><a href="bacardi.html">Bacardi Office Building</a></figcaption>
                         </figure>
                     </div>
                     <div id="ecran-8" class="carrousel_ecran">
                         <figure>
                             <img class="img__caroussel" src="public/img/image 11.webp" alt="image ecran 8">
-                            <figcaption>Farnsworth House</figcaption>
-                            <p></p>
+                            <figcaption><a href="farnsworth.html">Farnsworth House</a></figcaption>
+                           
                         </figure>
                     </div>
                 </div>
@@ -121,7 +117,7 @@
             </section>
             </div>
         
-        <section x-data="{ open: false }" class="frise_chronologique">
+        <section x-data="{ open: false }">
             <div class="accordeon">
                 <h2 class="title__partie frise">Frise chronologique</h2>
                 <button class="fleche__bas" @click="open = ! open"><img  src="public/icon/fleche-vers-le-bas-pour-naviguer.png" alt=""></button>
@@ -129,7 +125,7 @@
             <span x-show="open" x-transition>
                 
                 <p class="body">Cliquez sur les vignettes pour découvrir plus d'informations sur les oeuvres architecturales </p>
-            
+            <section class="frise_chronologique">
         <button class="frise__building 1"> <a class="link__oeuvre" href="farnsworth.html">
 
                 <p class="date__frise">1951</p>
@@ -178,6 +174,7 @@
                 <img class="frise__img" src="public/img/image 10.webp" alt="">
                 </a>
         </button>
+    </section>
         </section>
     </span>
         </main>  

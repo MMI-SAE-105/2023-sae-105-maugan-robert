@@ -26,7 +26,7 @@
     margin-left: var(--space1x);
     display: block;
     padding-bottom: 2px;
-    margin-bottom: var(--space2x);
+    margin-bottom: var(--space3x);
     border-bottom: 2px solid var(--gris-noir);
     margin-top: var(--space1x);
     margin-left: var(--space1x);
@@ -44,7 +44,7 @@ textarea {
     margin-left: var(--space1x);
     display: block;
     padding-bottom: 2px;
-    margin-bottom: var(--space2x);
+    margin-bottom: var(--space3x);
     border-bottom: 2px solid var(--gris-noir);
     margin-top: var(--space1x);
     margin-left: var(--space1x);
