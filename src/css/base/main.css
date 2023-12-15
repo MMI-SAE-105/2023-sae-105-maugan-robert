@@ -9,6 +9,7 @@ h1, h2, h3 {
 }
 
 .body__404 {
+  padding-top: 50px;
   justify-content: center;
   align-items: center;
   height: 100vh;
