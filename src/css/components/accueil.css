@@ -43,10 +43,14 @@
     margin-right: var(--space2x);
 }
 
+.lieu__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
 .img__fondation {
-    margin-left: var(--space2x);
-    margin-right: var(--space2x);
-    width: 85%;
+    width: 85%;   
 }
 
 .text__tarifs{
