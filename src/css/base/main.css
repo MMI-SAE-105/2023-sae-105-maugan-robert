@@ -16,6 +16,7 @@ h1, h2, h3 {
   margin: 0;
   background-color: #f8f8f8;
   font-family: Arial, sans-serif;
+  size: 110%;
 }
 
 .error__404 {
