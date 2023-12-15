@@ -105,3 +105,15 @@ figcaption {
     justify-content: center;
     align-items: center;
 }
+
+.fleche__bas {
+    position:relative;
+    background: transparent; 
+    width: 50px;
+    border: none;
+    text-decoration: none;
+}
+
+.accordeon {
+    display: flex;
+}

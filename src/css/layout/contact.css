@@ -3,23 +3,6 @@
     border: none; 
 }
 
-.label__name {
-    display: block;
-    padding-bottom: 2px;
-    margin-bottom: 5px;
-    border-bottom: 2px solid var(--gris-noir);
-    margin-top: var(--space1x);
-    margin-left: var(--space1x);
-    margin-right: var(--space1x);
-}
- label {
-    font-size: var(--body);
-    font-family: var(--niramit);
-    color: var(--gris-noir);
-    margin-left: var(--space1x);
-    margin-right: var(--space2x);
- }
-
  .contact_btn {
     background-color: var(--black);
     color: var(--white); 
@@ -37,10 +20,36 @@
 
  input {
     border: none; 
+    font-size: var(--body);
+    font-family: var(--niramit);
+    color: var(--gris-noir);
+    margin-left: var(--space1x);
+    display: block;
+    padding-bottom: 2px;
+    margin-bottom: var(--space2x);
+    border-bottom: 2px solid var(--gris-noir);
+    margin-top: var(--space1x);
+    margin-left: var(--space1x);
+    margin-right: var(--space1x);
+    width: 90%;
+    background-color: var(--white);
 }
 
 textarea {
     border: none; 
+    border: none; 
+    font-size: var(--body);
+    font-family: var(--niramit);
+    color: var(--gris-noir);
+    margin-left: var(--space1x);
+    display: block;
+    padding-bottom: 2px;
+    margin-bottom: var(--space2x);
+    border-bottom: 2px solid var(--gris-noir);
+    margin-top: var(--space1x);
+    margin-left: var(--space1x);
+    width: 90%;
+    background-color: var(--white);
 }
 
 .label__message {
