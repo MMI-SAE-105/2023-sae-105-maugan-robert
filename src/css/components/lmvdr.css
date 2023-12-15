@@ -109,11 +109,15 @@ figcaption {
 .fleche__bas {
     position:relative;
     background: transparent; 
-    width: 50px;
+    width: 40px;
     border: none;
     text-decoration: none;
+    margin-right: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .accordeon {
     display: flex;
+    align-items: center;
 }

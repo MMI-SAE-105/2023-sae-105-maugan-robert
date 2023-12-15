@@ -7,3 +7,27 @@
 h1, h2, h3 {
   font-weight: normal;
 }
+
+.body__404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8f8f8;
+  font-family: Arial, sans-serif;
+}
+
+.error__404 {
+  text-align: center;
+}
+
+.error__404 h1 {
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.error__404 p {
+  font-size: 24px;
+  color: #666;
+}
