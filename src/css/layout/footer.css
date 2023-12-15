@@ -7,7 +7,7 @@ footer {
 
 .footer__center {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -15,8 +15,7 @@ footer {
     filter: invert(100%);
     -webkit-filter: invert(100%);
     width: 50px;
-    margin-left: 135px; 
-    margin-bottom: 1px;
+    margin-left: 43%;
 }
 
 .footer__citation {
