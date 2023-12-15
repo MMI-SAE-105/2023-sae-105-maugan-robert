@@ -16,7 +16,7 @@ h1, h2, h3 {
   margin: 0;
   background-color: #f8f8f8;
   font-family: Arial, sans-serif;
-  size: 110%;
+  size: 200%;
 }
 
 .error__404 {
@@ -37,4 +37,5 @@ h1, h2, h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  size: 200%; 
 }
